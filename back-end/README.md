@@ -1,4 +1,4 @@
-# Adonis API application
+# API application
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
@@ -7,22 +7,19 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 3. CORS
 4. Lucid ORM
 5. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
+6. JsonWebToken
 
 ### Migrations
 
 Run the following command to run startup migrations.
 
-```js
+```bash
 adonis migration:run
+```
+### Start Servidor
+
+Run the following command to run startup migrations.
+
+```bash
+adonis serve or yarn start
 ```
