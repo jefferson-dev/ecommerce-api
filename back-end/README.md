@@ -16,9 +16,9 @@ Run the following command to run startup migrations.
 ```bash
 adonis migration:run
 ```
-### Start Servidor
+### Start Server
 
-Run the following command to run startup migrations.
+Run the following command to run startup server.
 
 ```bash
 adonis serve or yarn start
